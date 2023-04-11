@@ -1,0 +1,256 @@
+body {
+    margin: 100px;
+}
+
+.top-row {
+    display:flex;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.top-row > div {
+    background-color: skyblue;
+    flex: 1;
+   /* margin: 10px; */
+}
+
+.top-row > div:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.mid-row {
+    height: 400px;
+    background-color: skyblue;
+    margin-bottom: 10px;
+}
+
+.bottom-row {
+    height: 20px;
+    background-color: yellowgreen;
+}
+
+.circle {
+        width: 50px;
+        height: 50px;
+        background: rgb(148, 36, 159);
+        border-radius: 50%;
+        position:relative;
+        bottom: 545px;
+        left: 450px;
+        border: 4px;
+}
+
+.circle1 {
+    width: 50px;
+    height: 50px;
+    background: rgb(148, 36, 159);
+    border-radius: 50%;
+    position:relative;
+    bottom: 300px;
+    left: 450px;
+    border: 4px;
+}
+
+    .circle2 {
+        width: 100px;
+        height: 100px;
+        background: pink;
+        border-radius: 50%;
+        position: relative;
+        bottom: 550px;
+        left: 500px;
+        border: 4px;
+}
+
+    .circle3 {
+        width: 50px;
+        height: 50px;
+        background: pink;
+        border-radius: 50%;
+        position: relative;
+        bottom: 655px;
+        left: 300px;
+        border: 4px;
+}
+
+.circle4 {
+    width: 100px;
+    height: 100px;
+    background: rgb(194, 127, 138);
+    border-radius: 50%;
+    position: relative;
+    bottom: 500px;
+    left: 300px;
+    border: 4px;
+}
+
+    .triangle {
+            width: 0;
+            height: 0;
+            border-left: 250px solid transparent;
+            border-right: 250px solid transparent;
+            border-bottom: 500px solid rgb(81, 186, 81);
+            border-top: none;
+            position: relative;
+            bottom: 880px;
+            float: right;
+}
+
+    .triangle1 {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid rgb(19, 112, 19);
+        border-top: none;
+        position: relative;
+        bottom: 450px;
+        float: right;
+        margin-right: -40px;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid rgb(20, 103, 20);
+    border-top: none;
+    position: relative;
+    bottom: 680px;
+    float: right;
+}
+
+.triangle3 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(8, 50, 8);
+    border-top: none;
+    position: relative;
+    bottom: 480px;
+    float: right;
+    margin-right: -70px;
+}
+
+.triangle4 {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-bottom: 500px solid rgb(105, 237, 105);
+    border-top: none;
+    position: relative;
+    bottom: 850px;
+    float: right;
+    margin-right: -15px;
+}
+
+.triangle5 {
+    width: 0;
+    height: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 300px solid rgb(20, 103, 20);
+    border-top: none;
+    position: relative;
+    bottom: 650px;
+    float: right;
+}
+
+.triangle6 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(35, 159, 35);
+    border-top: none;
+    position: relative;
+    bottom: 450px;
+    float: right;
+    margin-right: -50px;
+    z-index: 2;
+}
+
+.triangle7 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(82, 131, 82);
+    border-top: none;
+    position: relative;
+    bottom: 450px;
+    float: right;
+    margin-right: -50px;
+}
+
+.triangle8 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(19, 36, 19);
+    border-top: none;
+    position: relative;
+    bottom: 450px;
+    float: right;
+    margin-right: -50px;
+}
+
+#emailAddress {
+width: 500px;
+height: 50px;
+border-radius: 50px;
+margin-top: 30px;
+}
+
+#botton {
+    background-color: aqua;
+    font-size: xx-large;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+#fname {
+    width: 500px;
+    height: 50px;
+    border-radius: 50px; 
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+#lname {
+    width: 500px;
+    height: 50px;
+    border-radius: 50px; 
+    margin-top: 30px;
+    margin-bottom: 30px;  
+}
+
+label {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+@media only screen and (max-width:2284px) {
+body {
+    min-width: 2284px;
+    min-height: 2387px;
+}
+}
+
+
+ 
+
+
+
+
+
+
+
+    
